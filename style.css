@@ -1,0 +1,48 @@
+.error {
+
+    background: red;
+}
+
+body {
+    background: #23074d;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #cc5333, #23074d);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #cc5333, #23074d); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    font-family: 'Open Sans Condensed', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    color: black
+
+}
+
+#lista-de-invitados {
+    border: 5px solid #23074d;
+
+}
+
+#lista-de-invitados input {
+    background-color: transparent;
+    border: none;
+    display: flex;
+    flex-direction: column;
+} 
+
+
+
+
+h1, h2 {
+   text-align: center; 
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 5px solid black;
+    width: 300px;
+    background-color: white;
+}
+
+
